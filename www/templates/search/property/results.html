@@ -1,0 +1,9 @@
+<ion-view view-title="Properties">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="property in properties" href="#/app/search/property/results/{{property.id}}">
+        {{property.name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

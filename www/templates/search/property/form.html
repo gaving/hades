@@ -1,0 +1,31 @@
+<ion-view view-title="Search">
+<ion-content>
+<form ng-submit="doSearch()">
+  <div class="list">
+    <label class="item item-input">
+      <span class="input-label">Number</span>
+      <input type="text" ng-model="loginData.number">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Street</span>
+      <input type="text" ng-model="loginData.street">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">City</span>
+      <input type="text" ng-model="loginData.city">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Post Code</span>
+      <input type="text" ng-model="loginData.postCode">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Country</span>
+      <input type="text" ng-model="loginData.country">
+    </label>
+    <label class="item">
+      <button class="button button-block button-positive" type="submit">Search</button>
+    </label>
+  </div>
+</form>
+</ion-content>
+</ion-view>
